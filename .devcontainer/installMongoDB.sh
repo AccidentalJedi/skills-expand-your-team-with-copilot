@@ -9,3 +9,5 @@ sudo apt-get install -y mongodb-org
 # Create necessary directories and set permissions
 sudo mkdir -p /data/db
 sudo chown -R mongodb:mongodb /data/db
+sudo mkdir -p /var/log/mongodb
+sudo chown mongodb:mongodb /var/log/mongodb
